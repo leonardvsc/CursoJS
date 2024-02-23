@@ -1,0 +1,35 @@
+/**
+ * Aritméticos
+ * + Adição / Concatenação
+ * ** Potenciação
+ * %  Resto da Divisão
+ */
+
+// Presedência
+// ()
+// **
+// * / %
+// + -
+
+// Incremento = ++
+// Decremento = --
+
+// Os tipos de dados primitivos
+// String, number, undefined, null, boolean, symbol
+
+const nome = 'Luiz'; //String
+const nome1 = "Luiz"; //String
+const nome2 = `Luiz`; //String
+const numero1 = 10; //Number
+const numero2 = 10.52; //Number
+let nomeAluno; // undefined -> não aponta pra local nenhum na memória
+const sobrenomeAluno = null // Nulo -> não aponta pra local nenhum na memória
+const aprovado = false // Bolean = true, false (lógico)
+
+//
+let a = 2;
+const b = a;
+console.log(a, b);
+
+a = 3;
+console.log(a, b)
