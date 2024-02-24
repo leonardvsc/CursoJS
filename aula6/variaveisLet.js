@@ -11,7 +11,6 @@ console.log(nomeCliente);
 // Sempre iniciar nome de uma variável com letra minúscula
 // Não pode conter espaços ou traços
 // As variavéis são Case-sensitive
-// Não podemos redeclarar variáveis com let
 // NÃO UTILIZE VAR, UTILIZE LET.
 
 let nomecliente = 'Otávio';

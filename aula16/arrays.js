@@ -4,14 +4,13 @@ const nome = 'Leonardo';
 //              0       1        2       <- Indice de uma variavel array
 let nomes = ['Luiz', 'Maria', 'João'];
 
-console.log(nomes instanceof Array)
-
 
 // console.log(typeof nomes); // Sendo um arrey mais pelo javascript é considerado com object
 
 // console.log(nomes instanceof Array);  // Verifica se é um array
 
-// const fatiar = nomes.slice(3 , 5) // Pegar posição no array
+// const fatiar = nomes.slice(0 , 2) // Pegar posição no array
+// console.log(fatiar)
 
 // delete nomes[1], // Deletando um índice
 
@@ -31,6 +30,10 @@ console.log(nomes instanceof Array)
 // nomes[0] = 'Eduardo' // Altera
 
 //console.log(nomes[2])  // Acessar índice com notação de colchetes
+
+
+
+
 
 // const descreve uma variável que não pode ser reatribuída (com o operador de atribuição =).
 // Depois de criá-la, não podemos fazer algo assim:
