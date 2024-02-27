@@ -4,8 +4,11 @@ const nome = 'Leonardo';
 //              0       1        2       <- Indice de uma variavel array
 let nomes = ['Luiz', 'Maria', 'João'];
 
+nomes.push("Luiza", "Leonardo")
+console.log(nomes.slice(0, -1))
 
-// console.log(typeof nomes); // Sendo um arrey mais pelo javascript é considerado com object
+
+// console.log(typeof nomes); // Sendo um array mais pelo javascript é considerado com object
 
 // console.log(nomes instanceof Array);  // Verifica se é um array
 
@@ -14,8 +17,8 @@ let nomes = ['Luiz', 'Maria', 'João'];
 
 // delete nomes[1], // Deletando um índice
 
-// const resultadoPop = nomes.shift(); // Função que remove o primeiro do índice de um array com posibilidade de salvar o valor removido em outra variavel.
-// const resultadoPop = nomes.pop(); // Função que remove o ultimo índice de um array com posibilidade de salvar o valor removido em outra variavel.
+// const resultadoPop = nomes.shift(); // Função que remove do começo do índice de um array com posibilidade de salvar o valor removido em outra variavel.
+// const resultadoPop = nomes.pop(); // Função que remove do final do índice de um array com posibilidade de salvar o valor removido em outra variavel.
 // console.log(resultadoPop);
 
 // nomes.unshift('Diogo') // Adiciona no começo
