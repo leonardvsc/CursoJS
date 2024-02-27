@@ -23,7 +23,9 @@ console.log(divisao(10, 5));
 
 // Quando tem só uma linha na função pode usar assim:
 const menos = (x, y) => x - y;
+console.log(menos(10, 4))
 
 // Quando tem só um parâmetro não precisa utilizar parênteses 
-const raiz2 = n => n ** 0.5;
-console.log(raiz2(9))
+const raizArrowFunction = n => n ** 0.5;
+
+console.log(raizArrowFunction(9))
