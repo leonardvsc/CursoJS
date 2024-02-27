@@ -8,6 +8,9 @@ nomes.push("Luiza", "Leonardo")
 console.log(nomes.slice(0, -1))
 
 
+console.log(nome.toLocaleLowerCase().indexOf("l")) // Convertenho string para minpusculo para verificar se tem o letra com indexOf, se caso estiver recebendo por input pode ser tanto Maiúsculas ou Minúsculas.
+
+
 // console.log(typeof nomes); // Sendo um array mais pelo javascript é considerado com object
 
 // console.log(nomes instanceof Array);  // Verifica se é um array
