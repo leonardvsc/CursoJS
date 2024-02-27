@@ -23,6 +23,7 @@ console.log(divisao(10, 5));
 
 // Quando tem só uma linha na função pode usar assim:
 const menos = (x, y) => x - y;
+
 console.log(menos(10, 4))
 
 // Quando tem só um parâmetro não precisa utilizar parênteses 
