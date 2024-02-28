@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        form{
+            display: flex;
+            align-items: stretch;
+            flex-direction: column;
+            margin-inline: auto;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" class="input__nome">
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="sobrenome" class="input__sobrenome">
+
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" class="input__idade">
+
+        <label for="peso">Peso:</label>
+        <input type="text" name="peso" id="peso" class="input__peso">
+
+        <label for="altura">Altura:</label>
+        <input type="text" name="altura" id="altura" class="input__altura">
+
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>
