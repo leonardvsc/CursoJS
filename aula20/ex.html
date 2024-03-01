@@ -7,8 +7,11 @@
 
     <style>
         body{
+            font-family: sans-serif;
             height: 100vh;
             display: flex;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
         }
 
@@ -19,18 +22,19 @@
             margin-inline: auto;
             max-width: 300px;
         }
+        
+        button{
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <form action="">
+    <form class="form" action="" method="get">
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome" class="input__nome">
 
         <label for="sobrenome">Sobrenome:</label>
         <input type="text" name="sobrenome" id="sobrenome" class="input__sobrenome">
-
-        <label for="idade">Idade:</label>
-        <input type="number" name="idade" id="idade" class="input__idade">
 
         <label for="peso">Peso:</label>
         <input type="text" name="peso" id="peso" class="input__peso">
@@ -40,6 +44,9 @@
 
         <button type="submit">Enviar</button>
     </form>
+
+    <div class="resultado"></div>
+
     <script src="js/script.js"></script>
 </body>
 </html>
