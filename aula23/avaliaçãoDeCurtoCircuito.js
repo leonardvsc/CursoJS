@@ -18,7 +18,7 @@ function falaOi () {
     return 'Oi';
 }
 
-let vaiExecutar = 'Joãozinho';
+let vaiExecutar = true;
 
 // Sem fazer nenhuma estrutura condicional, nós conseguimos fazer uma condição para executar ou não uma função.
 console.log(vaiExecutar && falaOi())
