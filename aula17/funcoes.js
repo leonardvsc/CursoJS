@@ -17,3 +17,10 @@ function saudacao2(nome, idade) { // Função usando parametros para receber val
 
 const variavel2 = saudacao2('Leonardo', '50') //  Chamando a função com os argumentos dos parametros. (Salvando o retorno em uma variavél)
 console.log(variavel2)
+
+function saudacao(nome, idade) {
+    return {
+        nome: nome,
+        idade: idade
+    }
+}

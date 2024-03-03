@@ -2,9 +2,9 @@
 
 Operadores Lógicos
 
-&&  ->  AND ->  E
-||  ->  OR  ->  OU
-!   ->  NOT ->  NÃO
+&&  ->  AND ->  E       //Todas as expressões precisam ser verdadeiras para que AND retorne verdadeiro.
+||  ->  OR  ->  OU      //Todas as expressões precisam ser falsas para que OR retorne falso.
+!   ->  NOT ->  NÃO     //Retorna o oposto da expressão.
 
 */
 
@@ -17,7 +17,7 @@ const senha = '123456';
 
 const vaiLogar = usuario === 'Leonardo' && senha === '123456';
 
-//console.log(vaiLogar)
+console.log(vaiLogar)
 
-console.log(!true) // Retorna o oposto da expressão.
-console.log(!!true) // Retorna a expressão para o valor original.
+// console.log(!true) // Retorna o oposto da expressão.
+// console.log(!!true) // Retorna a expressão para o valor original.

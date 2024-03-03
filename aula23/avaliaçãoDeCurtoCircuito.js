@@ -5,20 +5,31 @@ console.log('Leonardo Victor' && 0 && 'Maria Oliveira') // Retorna o valor da ul
 // Neste caso, 'Leonardo Victor' é verdadeiro (truthy), mas 0 é falso (falsy), então a avaliação do AND
 // lógico para ali e retorna 0, sem avaliar 'Maria Oliveira'.
 
-// Valores que avaliam em falso com a expressão &&
-// console.log(false && 'Qualquer valor'); // Retorna false
-// console.log(0 && 'Qualquer valor'); // Retorna 0
-// console.log('' && 'Qualquer valor'); // Retorna ''
-// console.log(null && 'Qualquer valor'); // Retorna null
-// console.log(undefined && 'Qualquer valor'); // Retorna undefined
-// console.log(NaN && 'Qualquer valor'); // Retorna NaN
+// Demonstração de valores que avaliam em falso com a expressão && (AND lógico)
+console.log(false && 'Não vai ser avaliado'); // Retorna false
+console.log(0 && 'Não vai ser avaliado'); // Retorna 0
+console.log('' && 'Não vai ser avaliado'); // Retorna ''
+console.log(null && 'Não vai ser avaliado'); // Retorna null
+console.log(undefined && 'Não vai ser avaliado'); // Retorna undefined
+console.log(NaN && 'Não vai ser avaliado'); // Retorna NaN
 
-console.log('Leonardo ' && undefined && 'Victor') // Quando encontra o primeiro valor falso, retorna o valor falso.
-function falaOi () {
-    return 'Oi';
+// Qualquer coisa diferente dessas de cima avaliam em true com a expressão && (AND lógico)
+
+
+function falaOi() {
+    return 'A ação foi realizada com sucesso por que a variavel vaiExecutar é true.';
 }
 
 let vaiExecutar = true;
 
 // Sem fazer nenhuma estrutura condicional, nós conseguimos fazer uma condição para executar ou não uma função.
 console.log(vaiExecutar && falaOi())
+
+
+// Função que retorna um número aleatório entre min e max
+function gerarNumeroAleatorio(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+let totalDeParticipantes = 100;
+console.log(gerarNumeroAleatorio(0, totalDeParticipantes))
