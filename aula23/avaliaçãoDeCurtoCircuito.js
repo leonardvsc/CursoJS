@@ -1,5 +1,5 @@
 
-console.log('Leonardo Victor' && 0 && 'Maria Oliveira') // Retorna o valor da ultima expressão verdadeira
+console.log('Leonardo Victor' && 0 && 'Maria Oliveira')
 
 // O resultado é 0 porque o operador && (AND lógico) retorna o primeiro operando falso que encontrar.
 // Neste caso, 'Leonardo Victor' é verdadeiro (truthy), mas 0 é falso (falsy), então a avaliação do AND

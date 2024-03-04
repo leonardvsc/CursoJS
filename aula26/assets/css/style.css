@@ -14,11 +14,16 @@
 }
 
 body {
-    padding: 20px 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
     background-color: var(--primary-color);
 }
 
 .container {
+    width: 100%;
     max-width: 500px;
     margin: 0 auto;
     padding: 20px 20px;
