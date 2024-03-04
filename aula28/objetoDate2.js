@@ -1,5 +1,4 @@
-// Função que retorna a data em milessimos de segundo (milisegundos)
-
+// Função para formatação de data!
 function formataData (data) {
     const dia = data.getDate();
     const mes = data.getMonth() + 1;
@@ -8,7 +7,7 @@ function formataData (data) {
     const min = data.getMinutes();
     const seg = data.getSeconds();
     return `${dia}/${mes}/${ano} ${hora}:${min}:${seg}`
-} 
+}
 
 const data = new Date();
 const dataBrasil = formataData(data);
