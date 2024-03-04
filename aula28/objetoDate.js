@@ -9,4 +9,3 @@ console.log('Minutos', data.getMinutes());
 console.log('Segundos', data.getSeconds());
 console.log('Milisegundos', data.getMilliseconds());
 console.log('Dia da semana', data.getDay());
-
