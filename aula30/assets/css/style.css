@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #202020;
+    --primary-color-dark: #490049;
+    --container-color: #d1d1d1;
+    
+}
+
+body {
+    height: 100vh;
+    padding: 20px 20px;
+    background-color: var(--primary-color);
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 20px;
+
+    background-color: var(--container-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.container p {
+    margin-bottom: 20px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form label, form button {
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size:  16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 100%;
+
+}
+
+form input:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+form button {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background-color: var(--primary-color-dark);
+}
+
+form button:active {
+    background-color: rgb(172, 34, 0);
+}
