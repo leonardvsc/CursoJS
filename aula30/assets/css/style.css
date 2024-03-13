@@ -14,15 +14,8 @@
 }
 
 body {
-    height: 100vh;
     padding: 20px 20px;
     background-color: var(--primary-color);
-
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
 }
 
 .container {
