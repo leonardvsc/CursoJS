@@ -1,4 +1,5 @@
 /* FOR CLÁSSICO */
+// Estrutura de repetição
 
 console.log("Vai comecar...");
 

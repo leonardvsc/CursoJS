@@ -1,3 +1,6 @@
+/* FOR CLÁSSICO */
+// Estrutura de repetição
+
 // Percorrer um array com for
 const frutas = ["maca", "pera", "uva", "melancia"];
 
