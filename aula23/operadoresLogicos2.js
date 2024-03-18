@@ -1,7 +1,7 @@
 const a = 0;
 const b = null;
-const c = 'false';
+const c = "false";
 const d = false;
 const e = NaN;
 
-console.log( a || b || c || d || e)
+console.log(a || b || c || d || e);
