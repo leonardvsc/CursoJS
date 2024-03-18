@@ -23,7 +23,9 @@ nomes.forEach(function (valor) {
   console.log(valor);
 });
 
-console.log("#############");
+nomes.forEach((valor) => {
+  console.log(valor);
+});
 
 nomes.forEach((valor, indice) => {
   console.log(valor, indice);
