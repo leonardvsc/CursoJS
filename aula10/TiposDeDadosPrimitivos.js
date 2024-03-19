@@ -1,5 +1,5 @@
-const a = 'Luiz'; //String
-const b = 'Luiz'; //String
+const a = "Luiz"; //String
+const b = "Luiz"; //String
 const c = `Luiz`; //String
 const n1 = 10; // Number
 const n2 = 10.52; // Number

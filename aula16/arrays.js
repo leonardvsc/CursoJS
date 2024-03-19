@@ -1,15 +1,13 @@
 //            01234567  <- Indice de uma variavel normal
-const nome = 'Leonardo';
+const nome = "Leonardo";
 
 //              0       1        2       <- Indice de uma variavel array
-let nomes = ['Luiz', 'Maria', 'João'];
+let nomes = ["Luiz", "Maria", "João"];
 
-nomes.push("Luiza", "Leonardo")
-console.log(nomes.slice(0, -1))
+nomes.push("Luiza", "Leonardo");
+console.log(nomes.slice(0, -1));
 
-
-console.log(nome.toLocaleLowerCase().indexOf("l")) // Convertenho string para minpusculo para verificar se tem o letra com indexOf, se caso estiver recebendo por input pode ser tanto Maiúsculas ou Minúsculas.
-
+console.log(nome.toLocaleLowerCase().indexOf("l")); // Convertenho string para minpusculo para verificar se tem o letra com indexOf, se caso estiver recebendo por input pode ser tanto Maiúsculas ou Minúsculas.
 
 // console.log(typeof nomes); // Sendo um array mais pelo javascript é considerado com object
 
@@ -37,10 +35,6 @@ console.log(nome.toLocaleLowerCase().indexOf("l")) // Convertenho string para mi
 
 //console.log(nomes[2])  // Acessar índice com notação de colchetes
 
-
-
-
-
 // const descreve uma variável que não pode ser reatribuída (com o operador de atribuição =).
 // Depois de criá-la, não podemos fazer algo assim:
 
@@ -59,7 +53,7 @@ Já quando usamos const com valores mutáveis (como arrays e objetos), a variáv
 Por este motivo, pode-se usar const com objetos mutáveis e ainda assim alterar seus valores internos. A única coisa que não vamos conseguir fazer é reatribuir o valor da variável.
  */
 
-// Exemplos: 
+// Exemplos:
 // Isso pode
 
 // const array = [1, 2, 3, 4, 5];

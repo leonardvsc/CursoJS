@@ -6,5 +6,5 @@ const resultado = primeiroNumero * segundoNumero;
 const resultadoDuplicado = resultado * 2;
 
 console.log(resultado);
-console.log(resultadoDuplicado)
-console.log(typeof resultadoDuplicado)
+console.log(resultadoDuplicado);
+console.log(typeof resultadoDuplicado);

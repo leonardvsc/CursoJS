@@ -1,8 +1,7 @@
-let nomeCliente = 'João';
-
+let nomeCliente = "João";
 
 console.log(nomeCliente);
-nomeCliente = 'Outro valor'; // Redeclarando variável
+nomeCliente = "Outro valor"; // Redeclarando variável
 console.log(nomeCliente);
 
 // Não pode criar cariáveis com palavras reservadas
@@ -13,7 +12,6 @@ console.log(nomeCliente);
 // As variavéis são Case-sensitive
 // NÃO UTILIZE VAR, UTILIZE LET.
 
-let nomecliente = 'Otávio';
+let nomecliente = "Otávio";
 
-console.log(nomeCliente, nomecliente)
-
+console.log(nomeCliente, nomecliente);

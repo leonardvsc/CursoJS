@@ -1,5 +1,8 @@
-const enviarDados = document.querySelector('#receberDados');
+const enviarDados = document.querySelector("#receberDados");
 
 const data = new Date();
 
-enviarDados.innerHTML = data.toLocaleString('pt-BR', { dateStyle: 'full', timeStyle: 'short' });
+enviarDados.innerHTML = data.toLocaleString("pt-BR", {
+  dateStyle: "full",
+  timeStyle: "short",
+});

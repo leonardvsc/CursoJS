@@ -1,10 +1,10 @@
-function criaPessoa (nome, sobrenome, idade) {
-    return {
-        nome,
-        sobrenome,
-        idade
-    };
+function criaPessoa(nome, sobrenome, idade) {
+  return {
+    nome,
+    sobrenome,
+    idade,
+  };
 }
 
-const pessoa1 = criaPessoa('Luiz', 'Eduardo', 30)
-console.log(pessoa1)
+const pessoa1 = criaPessoa("Luiz", "Eduardo", 30);
+console.log(pessoa1);

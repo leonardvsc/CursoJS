@@ -7,7 +7,7 @@
 // Não pode modificar o valor de uma constante !!!!!!!!!!
 // NÃO UTILIZE VAR, UTILIZE CONST PARA UM VALOR QUE NÃO VAI MODIFICAR.
 
-const nome = 'João';
-console.log(nome)
-nome = 'Luiz';
-console.log(nome)
+const nome = "João";
+console.log(nome);
+nome = "Luiz";
+console.log(nome);
