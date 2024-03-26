@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      :root {
+        --primary-color: #202020;
+        --primary-color-dark: #490049;
+        --container-color: #d1d1d1;
+      }
+
+      body {
+        padding: 20px 20px;
+        background-color: var(--primary-color);
+      }
+
+      .container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px 20px;
+
+        background-color: var(--container-color);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .container h1 {
+        font-weight: 800;
+        margin-bottom: 20px;
+      }
+
+      .container p {
+        margin-bottom: 20px;
+      }
+
+      button {
+        padding: 5px 10px;
+        border-radius: 8px;
+      }
+
+      .relogio {
+        font-size: 3em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Timer</h1>
+      <p class="relogio">00:00:00</p>
+      <button class="iniciar">Iniciar</button>
+      <button class="pausar">Pausar</button>
+      <button class="zerar">Zerar</button>
+    </section>
+    <script src="timerEx.js"></script>
+  </body>
+</html>
