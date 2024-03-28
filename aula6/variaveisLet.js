@@ -4,7 +4,7 @@ console.log(nomeCliente);
 nomeCliente = "Outro valor"; // Redeclarando variável
 console.log(nomeCliente);
 
-// Não pode criar cariáveis com palavras reservadas
+// Não pode criar variáveis com palavras reservadas
 // Variáveis precisam ter nomes significativos
 // Não pode começar o nome de uma variável com um número
 // Sempre iniciar nome de uma variável com letra minúscula

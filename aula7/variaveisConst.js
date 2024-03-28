@@ -9,5 +9,5 @@
 
 const nome = "João";
 console.log(nome);
-nome = "Luiz";
+nome = "Luiz"; // Erro
 console.log(nome);
