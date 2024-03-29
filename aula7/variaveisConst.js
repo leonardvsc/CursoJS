@@ -9,5 +9,5 @@
 
 const nome = "João";
 console.log(nome);
-nome = "Luiz"; // Erro
+nome = "Luiz"; // Erro ( constantes não podem ser reatribuídas )
 console.log(nome);
