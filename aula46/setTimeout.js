@@ -12,5 +12,6 @@ const timer = setInterval(function () {
 }, 1000);
 
 setTimeout(function () {
-  clearInterval(timer);
-}, 10000);
+  // A partir de um tempo em milisegundos, a função passada como parâmetro será executada.
+  clearInterval(timer); // clearInterval para parar o setInterval
+}, 10000); // 10 segundos
