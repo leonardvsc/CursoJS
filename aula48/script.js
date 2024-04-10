@@ -12,13 +12,6 @@ function criaLi() {
   return li;
 }
 
-inputTarefa.addEventListener("keypress", function (e) {
-  if (e.keyCode === 13) {
-    if (!inputTarefa.value) return;
-    criaTarefa(inputTarefa.value);
-  }
-});
-
 function limpaInput() {
   inputTarefa.value = "";
   inputTarefa.focus();
@@ -33,11 +26,18 @@ function criaTarefa(textoInput) {
   const li = criaLi();
   li.innerText = textoInput;
   tarefas.appendChild(li);
-  limpaInput();
   criaBotaoApagar(li);
+  limpaInput();
 }
 
 btnAddTarefa.addEventListener("click", function () {
   if (!inputTarefa.value) return;
   criaTarefa(inputTarefa.value);
+});
+
+inputTarefa.addEventListener("keypress", function (e) {
+  if (e.keyCode === 13) {
+    if (!inputTarefa.value) return;
+    criaTarefa(inputTarefa.value);
+  }
 });
