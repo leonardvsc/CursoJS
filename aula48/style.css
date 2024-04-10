@@ -69,6 +69,25 @@ body {
 
 .tarefas li {
   list-style: none;
-  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
   color: #fff;
+}
+
+/* Impedindo copiar */
+.tarefas li i {
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* HTML5 */
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 6px 16px;
+  border: 1px solid #333333;
+  background-color: #161616;
+  color: #fff;
+  cursor: pointer;
 }

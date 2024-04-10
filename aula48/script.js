@@ -24,11 +24,17 @@ function limpaInput() {
   inputTarefa.focus();
 }
 
+function criaBotaoApagar(li) {
+  const botaoApagar = document.createElement("i");
+  botaoApagar.classList.add("bi", "bi-trash");
+  li.appendChild(botaoApagar);
+}
 function criaTarefa(textoInput) {
   const li = criaLi();
   li.innerText = textoInput;
   tarefas.appendChild(li);
   limpaInput();
+  criaBotaoApagar(li);
 }
 
 btnAddTarefa.addEventListener("click", function () {
