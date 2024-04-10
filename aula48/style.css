@@ -16,10 +16,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
 }
 
-.container {
+.container2 {
   width: 100%;
   min-width: 300px;
   max-width: 600px;
@@ -32,7 +32,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.container h1 {
+.container2 h1 {
   color: #dadada;
   font-weight: 800;
   margin-bottom: 20px;
@@ -67,6 +67,11 @@ body {
   cursor: pointer;
 }
 
+.tarefas {
+  width: 100%;
+  padding-left: 0;
+}
+
 .tarefas li {
   list-style: none;
   display: flex;
@@ -76,7 +81,6 @@ body {
   color: #fff;
 }
 
-/* Impedindo copiar */
 .tarefas li i {
   -webkit-user-select: none; /* Chrome all / Safari all */
   -moz-user-select: none; /* Firefox all */

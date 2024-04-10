@@ -26,7 +26,7 @@ function limpaInput() {
 
 function criaBotaoApagar(li) {
   const botaoApagar = document.createElement("i");
-  botaoApagar.classList.add("bi", "bi-trash");
+  botaoApagar.classList.add("bi", "bi-trash3");
   li.appendChild(botaoApagar);
 }
 function criaTarefa(textoInput) {
