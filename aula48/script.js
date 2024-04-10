@@ -22,6 +22,7 @@ function criaBotaoApagar(li) {
   botaoApagar.classList.add("bi", "bi-trash3");
   li.appendChild(botaoApagar);
 }
+
 function criaTarefa(textoInput) {
   const li = criaLi();
   li.innerText = textoInput;
