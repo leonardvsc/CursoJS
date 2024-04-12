@@ -11,6 +11,7 @@ function falaOi() {
 // Atribuir uma função a uma variável
 // Atribuir uma função a uma constante
 
+// function expression (Jogar um função dentro de uma variável)
 const souUmDado = function () {
   // A variavel recebe uma função
   console.log("Sou um dado");

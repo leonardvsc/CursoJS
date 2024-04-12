@@ -1,11 +1,11 @@
-const souUmDado = function () {
-  // A variável recebe uma função
-  console.log("Sou um dado");
+// arrow function
+const funcaoArrow = (x, y) => {
+  console.log("Sou uma arrow function");
+  return x + y;
 };
 
-function executaFuncao(funcao) {
+function executarFuncao(funcao) {
   funcao();
-  return funcao;
 }
 
-console.log(executaFuncao(souUmDado));
+executarFuncao(funcaoArrow);
