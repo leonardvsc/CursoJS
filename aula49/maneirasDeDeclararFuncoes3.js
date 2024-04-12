@@ -1,4 +1,4 @@
-// Criamdo uma arrow function
+// Criando uma arrow function
 const funcaoArrow = (x, y) => {
   console.log("Sou uma arrow function");
   return x + y;
