@@ -1,7 +1,7 @@
-// Atribuição via desestruturacão em uma função
+// Atribuição via desestruturacão em uma função de um objeto
+// Função espera como argumento um objeto com os campos nome, sobrenome e idade
 
 function funcao({ nome, sobrenome, idade }) {
-  // Função espera como argumento um objeto com os campos nome, sobrenome e idade
   console.log(`O nome e ${nome} ${sobrenome} tem ${idade} anos.`);
 }
 
