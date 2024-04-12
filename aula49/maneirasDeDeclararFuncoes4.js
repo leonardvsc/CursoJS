@@ -1,5 +1,4 @@
 // criando uma função dentro de um objeto com o novo metodo
-
 const obj = {
   fala: function () {
     console.log("Estou falando...");
