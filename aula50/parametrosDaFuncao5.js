@@ -9,4 +9,5 @@ function fazerConta(operador, acumulador, ...numeros) {
   console.log(acumulador);
 }
 
-fazerConta("+", 0, 20, 30, 40, 50);
+fazerConta("+", 0, 6, 6);
+//                 6 + 6
