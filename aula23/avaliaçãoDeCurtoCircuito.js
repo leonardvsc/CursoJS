@@ -18,7 +18,7 @@ function falaOi() {
   return "A ação foi realizada com sucesso por que a variavel vaiExecutar é true.";
 }
 
-let vaiExecutar = false;
+let vaiExecutar = true;
 
 // Sem fazer nenhuma estrutura condicional, nós conseguimos fazer uma condição para executar ou não uma função.
 console.log(vaiExecutar && falaOi());
