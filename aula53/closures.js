@@ -8,4 +8,4 @@ function retornaFuncao(nome) {
 
 const minhaFuncao = retornaFuncao("Leonardo");
 const minhaFuncao2 = retornaFuncao("Eduardo");
-console.log(minhaFuncao2());
+console.dir(minhaFuncao2());
