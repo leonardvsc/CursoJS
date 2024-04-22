@@ -4,6 +4,7 @@
 function funcao() {
   console.log("Executando a função");
   console.log(arguments);
+  console.log(...arguments);
 
   let total = 0;
   for (let argumento of arguments) {
