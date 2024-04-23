@@ -34,7 +34,6 @@ function criaPessoa(nome, sobrenome, altura, peso) {
 const p1 = criaPessoa("Leonardo", "Victor", 1.8, 80);
 p1.nomeCompleto = "Leonardo Victor Silva";
 const p2 = criaPessoa("Maria", "Joaquina", 1.6, 62);
-console.log(p1.nomeCompleto);
 
 //console.log(p1.imc);
 //console.log(p1.imc());
