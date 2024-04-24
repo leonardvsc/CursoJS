@@ -1,8 +1,8 @@
 //Factory function
 function criaPessoa(nome, sobrenome, altura, peso) {
   return {
-    nome,
-    sobrenome,
+    nome: nome,
+    sobrenome: nome,
 
     // Getter
     get nomeCompleto() {
