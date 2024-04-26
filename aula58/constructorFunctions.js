@@ -4,7 +4,16 @@
 // Na função construtora nós precisamos usar
 // A primeira letra do nome da função deve ser maiúscula.
 
+// Dentro de um objeto que que retorna de uma função construtora
+// Não precisamos usar virgula (,) como padrao dentro de um objeto.
+
 function Pessoa(nome, sobrenome) {
+  // Atributos privados dentro do construtor
+  // Não estão disponíveis fora do construtor
+  const id = Math.random();
+
+  // Atributos publicos
+  // Pode ser acessados e alterados fora do construtor
   this.nome = nome;
   this.sobrenome = sobrenome;
 
