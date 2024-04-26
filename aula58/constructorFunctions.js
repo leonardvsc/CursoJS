@@ -7,9 +7,13 @@
 function Pessoa(nome, sobrenome) {
   this.nome = nome;
   this.sobrenome = sobrenome;
+
+  this.metodo = () => {
+    console.log(this.nome + " Sou um metodo");
+  };
 }
 
 const pessoa1 = new Pessoa("Leonardo", "Victor");
 const pessoa2 = new Pessoa("Maria", "Oliveira");
 
-console.log(pessoa1, pessoa2);
+pessoa2.metodo();
