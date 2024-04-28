@@ -1,3 +1,5 @@
+// Metodo splice substitui o push, pop, unshift e shift
+
 const nomes = ["Leonardo", "Maria", "João", "Luiza"];
 
 //                     splice(índice, deletar, adicionar);
