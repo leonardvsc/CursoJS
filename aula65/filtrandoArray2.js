@@ -12,11 +12,11 @@ const pessoas = [
 const pessoasComNomeGrande = pessoas.filter((obj) => obj.nome.length > 6);
 
 // Filtrando pessoas com idade maior que 50+
-const pessoasComMaisDeCinquentaAnos = pessoas.filter((obg) => obg.idade > 50);
+const pessoasComMaisDeCinquentaAnos = pessoas.filter((obj) => obj.idade > 50);
 
 // Filtrando pessoas que o nome termina com a
-const nomeTerminaComA = pessoas.filter((obg) => {
-  return obg.nome.toLowerCase().endsWith("a");
+const nomeTerminaComA = pessoas.filter((obj) => {
+  return obj.nome.toLowerCase().endsWith("a");
 });
 
 console.log(nomeTerminaComA);
