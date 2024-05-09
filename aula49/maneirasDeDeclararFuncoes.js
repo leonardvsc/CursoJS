@@ -12,7 +12,7 @@ function falaOi() {
 // Atribuir uma função a uma constante
 
 // function expression (Jogar um função dentro de uma variável)
-const souUmDado = function () {
+const souUmDado = () => {
   // A variavel recebe uma função
   console.log("Sou um dado");
 };
