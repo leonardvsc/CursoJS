@@ -1,8 +1,7 @@
-let a = "A";
-let b = "B";
-let c = "C";
+let a = 1;
+recebeOutroValor = "Recebe outro valor";
 
-[a, b, c] = [1, 2, 3]; // Atribuição via desestruturação
+[a, b, c] = [a, recebeOutroValor, 3]; // Atribuição via desestruturação
 // O que está do lado esquerdo é a desestruturação
 // O que está do lado direito é o array
 console.log(a, b, c);
@@ -23,4 +22,4 @@ const numerosComplexos = [
   [7, 8, 9],
 ];
 
-console.log(numerosComplexos[0][2]);
+console.log(numerosComplexos[2][2]);
