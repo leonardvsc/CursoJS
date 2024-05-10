@@ -1,6 +1,5 @@
-// For classico - Geralmente com iterpaveis (arrays ou strings)
-// For in - Retorna o índice ou chave (string, array ou objetos)
-// For of - Retorna o valor em si (iteraveis, arrays ou strings)
+// For in - Retorna o índice ou chave
+// For of - Retorna o valor em si
 
 //            0123456789
 const nome = "Leonardo Victor";
@@ -18,10 +17,6 @@ for (let valor of nome) {
 for (let nome of nomes) {
   console.log(nome);
 } */
-
-nomes.forEach(function (valor) {
-  console.log(valor);
-});
 
 nomes.forEach((valor) => {
   console.log(valor);
