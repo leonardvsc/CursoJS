@@ -4,9 +4,9 @@ function Carro(modelo, ano, placa) {
   this.modelo = modelo;
   this.ano = ano;
 
-  Object.defineProperty(this, "placas", {
-    enumerable: true,
-    value: placa,
+  Object.defineProperty(this, "placa", {
+    enumerable: true, // permite exibição
+    value: placa, // valor
     writable: false, // permite alteração
     configurable: true, // permite configuração
   });
