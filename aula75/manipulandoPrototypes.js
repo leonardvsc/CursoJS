@@ -10,7 +10,8 @@ const objB = {
 
 const objC = new Object();
 
-objC.variavelCriada = "Criou uma chave no objC chamanda variavelCriada";
+objC.variavelCriada = "Olha eu aqui!";
+console.log(objC.variavelCriada);
 
 Object.setPrototypeOf(objB, objA);
 
