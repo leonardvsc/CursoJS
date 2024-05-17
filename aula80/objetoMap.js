@@ -4,6 +4,6 @@ const pessoas = [
   { id: 1, nome: "Helena" },
 ];
 
-const ids = pessoas.map((pessoa) => {
-  return pessoa;
-});
+const ids = pessoas.map((pessoa) => pessoa);
+
+console.log(ids);
