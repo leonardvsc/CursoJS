@@ -4,6 +4,24 @@ const pessoas = [
   { id: 1, nome: "Helena" },
 ];
 
-const ids = pessoas.map((pessoa) => pessoa);
+// const novasPessoas = {};
+// for (const pessoa of pessoas) {
+//   const { id } = pessoa;
+//   novasPessoas[id] = { ...pessoa };
+// }
 
-console.log(ids);
+const novasPessoas = new Map();
+for (const pessoa of pessoas) {
+  const { id } = pessoa;
+  novasPessoas.set(id, { ...pessoa });
+}
+
+console.log(novasPessoas); // Map(3) { 3: {...}, 2: {...}, 1: {...} }
+console.log(novasPessoas.get(2)); // { id: 2, nome: 'Maria' }
+
+for (const pessoa of novasPessoas) {
+  const [id, { nome }] = pessoa;
+
+  console.log(id, nome);
+  console.log(pessoa);
+}
