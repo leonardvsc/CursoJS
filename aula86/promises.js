@@ -6,6 +6,11 @@ function tempoAlatorio(min, max) {
 
 function esperaAi(msg, tempo) {
   return new Promise((resolve, reject) => {
+    if (typeof msg !== "string") {
+      reject("BAD VALUE");
+      return;
+    }
+
     setTimeout(() => {
       console.log(msg);
       resolve(msg);
@@ -14,11 +19,11 @@ function esperaAi(msg, tempo) {
 }
 
 esperaAi("Frase 1", tempoAlatorio(1, 3))
-  .then((resposta) => {
+  .then(() => {
     return esperaAi("Frase 2", tempoAlatorio(1, 3));
   })
 
-  .then((resposta) => {
+  .then(() => {
     return esperaAi("Frase 3", tempoAlatorio(1, 3));
   })
   .catch((erro) => {
