@@ -6,7 +6,10 @@ function tempoAlatorio(min, max) {
 
 function esperaAi(msg, tempo) {
   return new Promise((resolve, reject) => {
-    if (typeof msg !== "string") reject(false);
+    if (typeof msg !== "string") {
+      reject("BAD VALUE");
+      return;
+    }
 
     setTimeout(() => {
       resolve(msg + " - Passei na promise");
@@ -15,13 +18,15 @@ function esperaAi(msg, tempo) {
 }
 
 const promises = [
-  "Primeiro valor",
-  esperaAi("Promise 1", tempoAlatorio(1, 3)),
-  esperaAi("Promise 2", tempoAlatorio(1, 3)),
-  esperaAi("Promise 3", tempoAlatorio(1, 3)),
-  "Ultimo valor",
+  esperaAi("Promise 1", tempoAlatorio(1, 5)),
+  esperaAi("Promise 2", tempoAlatorio(1, 5)),
+  esperaAi("Promise 3", tempoAlatorio(1, 5)),
 ];
 
-Promise.all(promises)
+Promise.race(promises)
   .then((valor) => console.log(valor))
   .catch((err) => console.log(err));
+
+// Promise.all(promises)
+//   .then((valor) => console.log(valor))
+//   .catch((err) => console.log(err));
