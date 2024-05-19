@@ -9,8 +9,19 @@ function esperaAi(msg, tempo) {
     if (typeof msg !== "string") reject(false);
 
     setTimeout(() => {
-      console.log(msg);
-      resolve(msg);
+      resolve(msg + " - Passei na promise");
     }, tempo);
   });
 }
+
+const promises = [
+  "Primeiro valor",
+  esperaAi("Promise 1", tempoAlatorio(1, 3)),
+  esperaAi("Promise 2", tempoAlatorio(1, 3)),
+  esperaAi("Promise 3", tempoAlatorio(1, 3)),
+  "Ultimo valor",
+];
+
+Promise.all(promises)
+  .then((valor) => console.log(valor))
+  .catch((err) => console.log(err));
