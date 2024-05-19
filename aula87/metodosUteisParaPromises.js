@@ -21,12 +21,18 @@ const promises = [
   esperaAi("Promise 1", tempoAlatorio(1, 5)),
   esperaAi("Promise 2", tempoAlatorio(1, 5)),
   esperaAi("Promise 3", tempoAlatorio(1, 5)),
+  //esperaAi(1000, 1000),
 ];
 
-Promise.race(promises)
-  .then((valor) => console.log(valor))
-  .catch((err) => console.log(err));
+// Promise.race retorna a primeira promise que foi resolvida
 
-// Promise.all(promises)
+// Promise.race(promises)
 //   .then((valor) => console.log(valor))
 //   .catch((err) => console.log(err));
+
+// Promise.all retorna todas as promises que foram resolvidas
+// Se alguma promise for rejeitada no array, todas as promises serão rejeitadas
+
+Promise.all(promises)
+  .then((valor) => console.log(valor))
+  .catch((err) => console.log(err));
