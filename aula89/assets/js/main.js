@@ -25,7 +25,7 @@ document.addEventListener("click", (event) => {
   }
 });
 
-function carregaPagina(el) {
+async function carregaPagina(el) {
   const href = el.getAttribute("href");
 
   const objConfig = {
@@ -33,16 +33,11 @@ function carregaPagina(el) {
     url: href,
   };
 
-  request(objConfig)
-    .then((response) => {
-      carregaResultado(response);
-    })
-    .catch((error) => {
-      console.log(error);
-    });
-}
+  const response = await request(objConfig);
+  carregaResultado(response);
 
-function carregaResultado(response) {
-  const resultado = document.querySelector(".resultado");
-  resultado.innerHTML = response;
+  function carregaResultado(response) {
+    const resultado = document.querySelector(".resultado");
+    resultado.innerHTML = response;
+  }
 }
